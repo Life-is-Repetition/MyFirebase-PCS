@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">MyFirebase</string>
+    <string name="empty_content">내용 없음</string>
+    <string name="post_add_error">Error adding the post: %s</string>
+    <string name="empty_fields">Please fill in all fields.</string>
+
+    <!-- Other string resources -->
+
+    <string name="post_update_error">Error updating the post: %s</string>
+
+</resources>

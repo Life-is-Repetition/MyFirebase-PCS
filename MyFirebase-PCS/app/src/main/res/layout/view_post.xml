@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/send"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="64dp"
+        android:text="판매자에게 메시지 보내기"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <LinearLayout
+        android:layout_width="360dp"
+        android:layout_height="506dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toTopOf="@+id/send"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="23dp">
+
+        <TextView
+            android:id="@+id/subject"
+            android:layout_width="match_parent"
+            android:layout_height="79dp"
+            android:text="제목"
+            android:textAlignment="center"
+            android:textSize="34sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/saling"
+            android:layout_width="341dp"
+            android:layout_height="40dp"
+            android:text="판매자"
+            android:textAlignment="textEnd" />
+
+        <TextView
+            android:id="@+id/value"
+            android:layout_width="341dp"
+            android:layout_height="47dp"
+            android:text="가격"
+            android:textAlignment="textEnd" />
+
+        <TextView
+            android:id="@+id/isSale"
+            android:layout_width="341dp"
+            android:layout_height="69dp"
+            android:text="판매여부"
+            android:textAlignment="textEnd" />
+
+        <TextView
+            android:id="@+id/content"
+            android:layout_width="343dp"
+            android:layout_height="203dp"
+            android:text="내용"
+            android:textAlignment="center" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
